@@ -1,0 +1,31 @@
+{
+  "goals": [
+    {
+      "id": "login_daily",
+      "text": "Login to the game",
+      "stat_name": "stat_login",
+      "target_amount": 1,
+      "is_permanent": true,
+      "priority": 1,
+      "reward_currency": 100
+    },
+    {
+      "id": "play_slots_5",
+      "text": "Play Slots 5 times",
+      "stat_name": "stat_slots_played",
+      "target_amount": 5,
+      "is_permanent": false,
+      "priority": 2,
+      "reward_currency": 250
+    },
+    {
+      "id": "play_slots_10",
+      "text": "Play Slots 10 times",
+      "stat_name": "stat_slots_played",
+      "target_amount": 10,
+      "is_permanent": false,
+      "priority": 2,
+      "reward_currency": 500
+    }
+  ]
+}
