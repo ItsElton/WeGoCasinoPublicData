@@ -7,6 +7,11 @@
       "target_amount": 1,
       "is_permanent": true,
       "priority": 1,
+      "goal_type": "login",
+      "weight": 100,
+      "is_float": false,
+      "reward_type": "currency",
+      "reward_quantity": 100,
       "reward_currency": 100
     },
     {
@@ -16,6 +21,11 @@
       "target_amount": 5,
       "is_permanent": false,
       "priority": 2,
+      "goal_type": "slots",
+      "weight": 30,
+      "is_float": false,
+      "reward_type": "currency",
+      "reward_quantity": 250,
       "reward_currency": 250
     },
     {
@@ -25,6 +35,67 @@
       "target_amount": 10,
       "is_permanent": false,
       "priority": 2,
+      "goal_type": "slots",
+      "weight": 20,
+      "is_float": false,
+      "reward_type": "currency",
+      "reward_quantity": 500,
+      "reward_currency": 500
+    },
+    {
+      "id": "play_roulette_5",
+      "text": "Play 5 rounds of Roulette",
+      "stat_name": "stat_roulette_played",
+      "target_amount": 5,
+      "is_permanent": false,
+      "priority": 3,
+      "goal_type": "roulette",
+      "weight": 25,
+      "is_float": false,
+      "reward_type": "currency",
+      "reward_quantity": 250,
+      "reward_currency": 250
+    },
+    {
+      "id": "spin_wheel_3",
+      "text": "Spin the Wheel 3 times",
+      "stat_name": "stat_wheelspin_played",
+      "target_amount": 3,
+      "is_permanent": false,
+      "priority": 3,
+      "goal_type": "wheelspin",
+      "weight": 25,
+      "is_float": false,
+      "reward_type": "currency",
+      "reward_quantity": 250,
+      "reward_currency": 250
+    },
+    {
+      "id": "play_poker_10",
+      "text": "Play 10 hands of Poker",
+      "stat_name": "stat_pokerhands_played",
+      "target_amount": 10,
+      "is_permanent": false,
+      "priority": 3,
+      "goal_type": "poker",
+      "weight": 25,
+      "is_float": false,
+      "reward_type": "currency",
+      "reward_quantity": 400,
+      "reward_currency": 400
+    },
+    {
+      "id": "earn_cash_1000",
+      "text": "Earn $1,000",
+      "stat_name": "stat_cash_earned",
+      "target_amount": 1000,
+      "is_permanent": false,
+      "priority": 4,
+      "goal_type": "cash",
+      "weight": 20,
+      "is_float": true,
+      "reward_type": "currency",
+      "reward_quantity": 500,
       "reward_currency": 500
     }
   ]
