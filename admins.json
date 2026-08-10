@@ -16,6 +16,11 @@
 
  	 "beta": [
     		""
-  	]
+  	],
 
+	"builds": {
+		"min_build": 0,
+		"min_admin_build": 0,
+		"revoked": []
+	}
 }
