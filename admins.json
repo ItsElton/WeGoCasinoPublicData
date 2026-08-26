@@ -19,8 +19,8 @@
   	],
 
 	"builds": {
-		"min_build": 31,
-		"min_admin_build": 31,
+		"min_build": 32,
+		"min_admin_build": 32,
 		"revoked": []
 	}
 }
